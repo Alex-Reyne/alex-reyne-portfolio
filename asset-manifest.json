@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/alex-reyne-portfolio/static/css/main.6a2ac387.css",
+    "main.js": "/alex-reyne-portfolio/static/js/main.58c5b0ee.js",
+    "static/js/787.b32f114d.chunk.js": "/alex-reyne-portfolio/static/js/787.b32f114d.chunk.js",
+    "static/media/reyne-space-bg.png": "/alex-reyne-portfolio/static/media/reyne-space-bg.d1e5916f7f8fa754f8e5.png",
+    "index.html": "/alex-reyne-portfolio/index.html",
+    "main.6a2ac387.css.map": "/alex-reyne-portfolio/static/css/main.6a2ac387.css.map",
+    "main.58c5b0ee.js.map": "/alex-reyne-portfolio/static/js/main.58c5b0ee.js.map",
+    "787.b32f114d.chunk.js.map": "/alex-reyne-portfolio/static/js/787.b32f114d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6a2ac387.css",
+    "static/js/main.58c5b0ee.js"
+  ]
+}
