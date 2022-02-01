@@ -9,7 +9,9 @@ export default function About() {
 				<Link to='about' spy={true} smooth={true}>
 					<FontAwesomeIcon id='about' icon={faAngleDoubleDown} />
 				</Link>
-				<h1>About Me</h1>
+				<div>
+					<img src='alex-reyne.jpeg'></img>
+				</div>
 				<p>
 					I’m a Full-Stack Web Developer and self taught Graphic Designer. I’ve
 					always had a passion for creating art and tinkering with things.

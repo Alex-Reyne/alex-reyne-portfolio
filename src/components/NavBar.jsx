@@ -12,9 +12,11 @@ export default function NavBar() {
 						<sup>02</sup>about
 					</p>
 				</Link>
-				<p>
-					<sup>03</sup>projects
-				</p>
+				<Link to='projects' spy={true} smooth={true}>
+					<p>
+						<sup>03</sup>projects
+					</p>
+				</Link>
 				<p>
 					<sup>04</sup>stack
 				</p>
