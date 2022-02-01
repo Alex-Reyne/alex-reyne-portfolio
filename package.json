@@ -2,7 +2,7 @@
 	"name": "alex-reyne-portfolio",
 	"version": "0.1.0",
 	"private": true,
-	"homepage": "https://alex-reyne.github.io/alex-reyne-portfolio",
+	"homepage": "https://alexreyne.me",
 	"dependencies": {
 		"@emotion/react": "^11.7.1",
 		"@emotion/styled": "^11.6.0",
