@@ -17,9 +17,11 @@ export default function NavBar() {
 						<sup>03</sup>projects
 					</p>
 				</Link>
-				<p>
-					<sup>04</sup>stack
-				</p>
+				<Link to='stack' spy={true} smooth={true}>
+					<p>
+						<sup>04</sup>stack
+					</p>
+				</Link>
 			</section>
 		</nav>
 	);
