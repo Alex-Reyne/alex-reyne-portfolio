@@ -111,3 +111,22 @@
 		}
 	}
 }
+@media only screen and (max-width: 450px) {
+	.stack-container {
+		h1 {
+			font-size: 40px;
+		}
+		margin-top: 330rem;
+	}
+	.design-stack {
+		img {
+			max-width: 0.5rem;
+		}
+	}
+
+	.dev-stack {
+		img {
+			max-width: 0.5rem;
+		}
+	}
+}
