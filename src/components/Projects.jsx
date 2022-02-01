@@ -13,7 +13,7 @@ export default function Projects() {
 	const junior = 'Junior';
 	const juniorDescription = `Junior is a full-stack web application that allows new developers to easily create a portfolio and apply for jobs or freelance work that are relevant to them. Junior also allows employers to post jobs and gig work for developers to pick up. Junior uses a REST api backend with Express.js, PostgresSQL, and Twilio. The frontend was built with React, React Router, SASS, and MaterialUI (MUI).`;
 	const alexReyne = 'Alex Reyne';
-	const alexReyneDescription = `Alex Reyne is my person portfolio site built in under 8 hours using `;
+	const alexReyneDescription = `Alex Reyne is my person portfolio site built in under 8 hours using React, and SASS and MUI for the Modal. It allows potential employers, recruiters, and freelance clients to get a quick overview of who I am and what I do.`;
 	// const scheduler = 'Scheduler';
 	// const tweeter = 'Tweeter';
 
@@ -40,7 +40,7 @@ export default function Projects() {
 					<ProjectCard
 						image={juniorImage}
 						title={alexReyne}
-						// description={alexReyneDescription}
+						description={alexReyneDescription}
 						open={open}
 						setOpen={setOpen}
 						setDialogContent={setDialogContent}

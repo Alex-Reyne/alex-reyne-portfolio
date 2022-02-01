@@ -30,6 +30,7 @@ export default function ProjectDialog(props) {
 					alignSelf: 'center',
 					marginTop: '-1rem',
 					fontSize: '40px',
+					'text-shadow': '0px 0px 15px #000',
 				},
 			}}
 			aria-labelledby='alert-dialog-title'
