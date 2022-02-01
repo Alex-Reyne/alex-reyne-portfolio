@@ -1,3 +1,4 @@
+import { Link } from '@mui/material';
 import Button from '@mui/material/Button';
 import Dialog from '@mui/material/Dialog';
 import DialogActions from '@mui/material/DialogActions';
@@ -7,7 +8,7 @@ import DialogTitle from '@mui/material/DialogTitle';
 
 export default function ProjectDialog(props) {
 	const { open, setOpen, dialogContent } = props;
-	const { title, description, image } = dialogContent;
+	const { title, description, image, github, live } = dialogContent;
 
 	const handleClose = () => {
 		setOpen(false);
@@ -18,6 +19,7 @@ export default function ProjectDialog(props) {
 			open={open}
 			onClose={handleClose}
 			maxWidth='md'
+			scroll='body'
 			sx={{
 				'& .MuiDialog-paper': {
 					borderRadius: '.25rem',
@@ -44,8 +46,16 @@ export default function ProjectDialog(props) {
 				</DialogContentText>
 			</DialogContent>
 			<DialogActions>
-				<Button onClick={handleClose}>GITHUB</Button>
-				<Button onClick={handleClose} autoFocus>
+				<Button
+					onClick={() => (github ? window.open(github, '_blank') : null)}
+					disabled={!github}
+				>
+					GITHUB
+				</Button>
+				<Button
+					onClick={() => (live ? window.open(live, '_blank') : null)}
+					disabled={!live}
+				>
 					LIVE
 				</Button>
 			</DialogActions>

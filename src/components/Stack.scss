@@ -73,3 +73,41 @@
 		}
 	}
 }
+
+@media only screen and (max-width: 1300px) {
+	.stack-container {
+		margin-top: 314rem;
+	}
+}
+@media only screen and (max-width: 990px) {
+	.stack-container {
+		margin-top: 310rem;
+	}
+	.design-stack {
+		img {
+			max-width: 3rem;
+		}
+	}
+
+	.dev-stack {
+		img {
+			max-width: 3rem;
+		}
+	}
+}
+@media only screen and (max-width: 750px) {
+	.stack-container {
+		margin-top: 310rem;
+	}
+	.design-stack {
+		img {
+			max-width: 2rem;
+		}
+	}
+
+	.dev-stack {
+		img {
+			max-width: 2rem;
+		}
+	}
+}

@@ -1,10 +1,11 @@
 import './ProjectCard.scss';
 
 export default function ProjectCard(props) {
-	const { image, title, description, setDialogContent, setOpen } = props;
+	const { image, title, description, github, live, setDialogContent, setOpen } =
+		props;
 
 	const handleClickOpen = () => {
-		setDialogContent({ title, image, description });
+		setDialogContent({ title, image, description, github, live });
 		setOpen(true);
 	};
 

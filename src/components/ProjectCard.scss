@@ -13,6 +13,21 @@
 	}
 }
 
+@media only screen and (max-width: 1300px) {
+	.project-card-container {
+		img {
+			min-width: 500px;
+			height: auto;
+		}
+
+		h1 {
+			font-size: 40px;
+			margin-top: 0.5rem;
+			margin-bottom: -1rem;
+		}
+	}
+}
+
 .MuiDialog-root {
 	img {
 		width: 850px;
