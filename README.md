@@ -6,6 +6,8 @@ Designed and built in under 8 hours using React, and SASS and MUI for the modal 
 
 It allows potential employers, recruiters, and freelance clients to get a quick overview of who I am and what I do.
 
+You can view the Live Version here: https://alexreyne.me/
+
 ## Showcase Video
 
 ![alex-reyne-video](https://github.com/Alex-Reyne/alex-reyne-portfolio/blob/main/public/images/alex-reyne-portfolio.gif?raw=true)

@@ -28,7 +28,7 @@ export default function Stack() {
 							id='html-html5'
 						></img>
 						<img
-							src='../images/css-css3.svg'
+							src='../images/CSS-CSS3.svg'
 							alt='css-css3'
 							id='css-css3'
 						></img>
