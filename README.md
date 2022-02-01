@@ -2,7 +2,7 @@
 
 Alex Reyne is my person portfolio site.
 
-Designed and built to be mobile ready and responsive using React, and SASS and MUI for the modal you're looking at right now.
+Designed and built to be responsive using React, and SASS and MUI. Though it is not mobile ready yet, I am still working on it bit by bit.
 
 It allows potential employers, recruiters, and freelance clients to get a quick overview of who I am and what I do.
 
