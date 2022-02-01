@@ -10,7 +10,7 @@ export default function About() {
 					<FontAwesomeIcon id='about' icon={faAngleDoubleDown} />
 				</Link>
 				<div>
-					<img src='alex-reyne.jpeg' alt='alexander reyne'></img>
+					<img src='../images/alex-reyne.jpeg' alt='alexander reyne'></img>
 				</div>
 				<p>
 					I’m a Full-Stack Web Developer and self taught Graphic Designer. I’ve
