@@ -1,3 +1,5 @@
+@import '../styles/variables.scss';
+
 .project-card-container {
 	img {
 		max-width: 500px;
@@ -9,4 +11,25 @@
 		margin-top: 0.5rem;
 		margin-bottom: -1rem;
 	}
+}
+
+.MuiDialog-root {
+	img {
+		width: 850px;
+	}
+}
+
+.MuiDialogContent-root {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+#alert-dialog-description {
+	margin-top: 1rem;
+	font-family: $lato;
+	font-size: 1.25rem;
+	color: white;
 }
