@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.9bf0aa41.css",
-    "main.js": "/static/js/main.ff315e25.js",
+    "main.js": "/static/js/main.793f3324.js",
     "static/js/787.b32f114d.chunk.js": "/static/js/787.b32f114d.chunk.js",
     "static/media/reyne-space-bg.png": "/static/media/reyne-space-bg.d1e5916f7f8fa754f8e5.png",
     "index.html": "/index.html",
     "main.9bf0aa41.css.map": "/static/css/main.9bf0aa41.css.map",
-    "main.ff315e25.js.map": "/static/js/main.ff315e25.js.map",
+    "main.793f3324.js.map": "/static/js/main.793f3324.js.map",
     "787.b32f114d.chunk.js.map": "/static/js/787.b32f114d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9bf0aa41.css",
-    "static/js/main.ff315e25.js"
+    "static/js/main.793f3324.js"
   ]
 }
