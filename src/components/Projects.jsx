@@ -19,8 +19,8 @@ export default function Projects() {
 
 	// const schedulerImage =
 	// 	'https://github.com/Alex-Reyne/scheduler/blob/master/public/alex-reyne-scheduler.png?raw=true';
-	const alexReyneImage = 'alex-reyne-portfolio.gif';
-	const juniorImage = 'junior-recording.gif';
+	const alexReyneImage = '../images/alex-reyne-portfolio.gif';
+	const juniorImage = '../images/junior-recording.gif';
 
 	return (
 		<div id='projects' className='projects-container fade-in'>
