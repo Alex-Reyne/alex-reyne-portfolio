@@ -43,6 +43,9 @@ export default function ProjectDialog(props) {
 					backgroundColor: '#1d1e1d',
 					color: '#f6f6f650',
 				},
+				'& .MuiDialog-container': {
+					// height: '100vh',
+				},
 			}}
 			aria-labelledby='alert-dialog-title'
 			aria-describedby='alert-dialog-description'
