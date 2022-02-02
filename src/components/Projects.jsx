@@ -19,7 +19,7 @@ export default function Projects() {
 
 	const alexReyneLive = 'https://alexreyne.me';
 	const alexReyneGithub = 'https://github.com/Alex-Reyne/alex-reyne-portfolio';
-	const alexReyne = 'Alex Reyne';
+	const alexReyne = 'Portfolio';
 	const alexReyneDescription = `Alex Reyne is my person portfolio site. Designed and built in under 8 hours using React, and SASS and MUI for the modal you're looking at right now. It allows potential employers, recruiters, and freelance clients to get a quick overview of who I am and what I do.`;
 	// const scheduler = 'Scheduler';
 	// const tweeter = 'Tweeter';
