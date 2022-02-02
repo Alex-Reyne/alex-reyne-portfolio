@@ -1,3 +1,5 @@
+import '../styles/Hello.scss';
+
 export default function Hello() {
 	return (
 		<>

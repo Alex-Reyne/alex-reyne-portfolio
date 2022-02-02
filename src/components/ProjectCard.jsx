@@ -1,4 +1,4 @@
-import './ProjectCard.scss';
+import '../styles/ProjectCard.scss';
 
 export default function ProjectCard(props) {
 	const { image, title, description, github, live, setDialogContent, setOpen } =

@@ -1,3 +1,4 @@
+import '../styles/Projects.scss';
 import { useState } from 'react';
 import ProjectCard from './ProjectCard';
 import ProjectDialog from './ProjectDialog';

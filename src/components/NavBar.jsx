@@ -1,3 +1,5 @@
+import '../styles/NavBar.scss';
+
 import { Link, animateScroll as scroll } from 'react-scroll';
 
 export default function NavBar() {

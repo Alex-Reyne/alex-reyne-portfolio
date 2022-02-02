@@ -1,7 +1,9 @@
+import '../styles/Footer.scss';
+
 export default function Footer() {
 	return (
 		<footer>
-			<h1>Footer</h1>
+			<p>&copy; Alex Reyne 2022</p>
 		</footer>
 	);
 }

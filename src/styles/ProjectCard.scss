@@ -1,6 +1,7 @@
 @import '../styles/variables.scss';
 
 .project-card-container {
+	text-align: center;
 	img {
 		max-width: 500px;
 		height: auto;
@@ -10,41 +11,6 @@
 		font-size: 60px;
 		margin-top: 0.5rem;
 		margin-bottom: -1rem;
-	}
-}
-
-@media only screen and (max-width: 1300px) {
-	.project-card-container {
-		img {
-			min-width: 500px;
-			height: auto;
-		}
-
-		h1 {
-			font-size: 40px;
-			margin-top: 0.5rem;
-			margin-bottom: -1rem;
-		}
-	}
-}
-
-@media only screen and (max-width: 450px) {
-	.project-card-container {
-		img {
-			max-width: 300px;
-			height: auto;
-		}
-		h1 {
-			font-size: 40px;
-			margin-top: 0.5rem;
-			margin-bottom: -0.25rem;
-		}
-	}
-
-	.MuiDialog-root {
-		img {
-			width: 300px;
-		}
 	}
 }
 

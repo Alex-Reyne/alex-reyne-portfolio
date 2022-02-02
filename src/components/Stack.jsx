@@ -1,4 +1,4 @@
-import './Stack.scss';
+import '../styles/Stack.scss';
 export default function Stack() {
 	return (
 		<div id='stack' className='stack-container fade-in'>
@@ -6,11 +6,11 @@ export default function Stack() {
 				<h1>My Stack</h1>
 				<div className='stack-alex fade-in'>
 					<div className='dev-stack'>
-						<img
+						{/* <img
 							src='../images/dev-stack.svg'
 							alt='dev-stack'
 							id='dev-stack'
-						></img>
+						></img> */}
 						<img
 							src='../images/express-js-javascript.svg'
 							alt='express-js-javascript'
@@ -50,11 +50,11 @@ export default function Stack() {
 						></img>
 					</div>
 					<div className='design-stack'>
-						<img
+						{/* <img
 							src='../images/design-stack.svg'
 							alt='design-stack'
 							id='design-stack'
-						></img>
+						></img> */}
 						<div className='design-icons'>
 							<img
 								src='../images/adobe-illustrator.svg'
@@ -81,9 +81,6 @@ export default function Stack() {
 					</div>
 				</div>
 			</section>
-			<footer>
-				<p>© Alex Reyne 2022</p>
-			</footer>
 		</div>
 	);
 }
