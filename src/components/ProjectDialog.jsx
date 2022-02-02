@@ -34,6 +34,15 @@ export default function ProjectDialog(props) {
 					fontSize: '40px',
 					'text-shadow': '0px 0px 15px #000',
 				},
+				'& .MuiButton-root': {
+					backgroundColor: '#fec859',
+					color: '#1d1e1d',
+				},
+				'& .Mui-disabled': {
+					opacity: '90%',
+					backgroundColor: '#1d1e1d',
+					color: '#f6f6f650',
+				},
 			}}
 			aria-labelledby='alert-dialog-title'
 			aria-describedby='alert-dialog-description'
@@ -45,14 +54,18 @@ export default function ProjectDialog(props) {
 					{description}
 				</DialogContentText>
 			</DialogContent>
-			<DialogActions>
+			<DialogActions sx={{ justifyContent: 'center' }}>
 				<Button
+					className='modal-button'
+					variant='contained'
+					// sx={{ color: '#1d1e1d', backgroundColor: '#fec859' }}
 					onClick={() => (github ? window.open(github, '_blank') : null)}
 					disabled={!github}
 				>
 					GITHUB
 				</Button>
 				<Button
+					variant='contained'
 					onClick={() => (live ? window.open(live, '_blank') : null)}
 					disabled={!live}
 				>
