@@ -1,9 +1,13 @@
 import '../styles/NavBar.scss';
 import useSound from 'use-sound';
+import { useState } from 'react';
 import { Link, animateScroll as scroll } from 'react-scroll';
+import ContactDialog from './ContactDialog';
 
 export default function NavBar() {
-	const [play] = useSound('../images/click.mp3');
+	// const [open, setOpen] = useState(false);
+	const [volume, setVolume] = useState(0.02);
+	const [play] = useSound('../images/click.mp3', { volume });
 
 	return (
 		<nav id='nav-bar'>
@@ -50,7 +54,19 @@ export default function NavBar() {
 						onMouseEnter={play}
 					></p>
 				</Link>
+				{/* <Link to={null} spy={true} smooth={true}>
+					<sup>05</sup>
+					<p
+						className='.btn-flip'
+						class='btn-flip'
+						data-back='Contact'
+						data-front='Contact'
+						onMouseEnter={play}
+						onClick={e => setOpen(true)}
+					></p>
+				</Link> */}
 			</section>
+			{/* <ContactDialog open={open} setOpen={setOpen} /> */}
 		</nav>
 	);
 }

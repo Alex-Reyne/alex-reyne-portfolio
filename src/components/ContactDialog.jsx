@@ -5,10 +5,10 @@ import DialogActions from '@mui/material/DialogActions';
 import DialogContent from '@mui/material/DialogContent';
 import DialogContentText from '@mui/material/DialogContentText';
 import DialogTitle from '@mui/material/DialogTitle';
+import '../styles/ContactDialog.scss';
 
-export default function ProjectDialog(props) {
-	const { open, setOpen, dialogContent } = props;
-	const { title, description, image, github, live } = dialogContent;
+export default function ContactDialog(props) {
+	const { live, setOpen, open, github } = props;
 
 	const handleClose = () => {
 		setOpen(false);
@@ -16,6 +16,7 @@ export default function ProjectDialog(props) {
 
 	return (
 		<Dialog
+			id='contact-dialog'
 			open={open}
 			onClose={handleClose}
 			maxWidth='md'
@@ -43,7 +44,7 @@ export default function ProjectDialog(props) {
 					backgroundColor: '#3a616f',
 					color: '#fec859',
 				},
-				// 				$white: #f6f6f6;
+				// $white: #f6f6f6;
 				// $black: #1d1e1d;
 				// $slate: #3a616f;
 				// $pink: #f16979;
@@ -58,30 +59,20 @@ export default function ProjectDialog(props) {
 			aria-describedby='alert-dialog-description'
 		>
 			<DialogTitle id='alert-dialog-title' className='fade-in'>
-				{title}
+				Contact Me
 			</DialogTitle>
 			<DialogContent className='fade-in'>
-				<img src={image} />
+				<img src='images/alex-reyne.jpeg' />
 				<DialogContentText id='alert-dialog-description'>
-					{description}
+					306.821.3553
+				</DialogContentText>
+				<DialogContentText id='alert-dialog-description'>
+					creativereyne@gmail.com
 				</DialogContentText>
 			</DialogContent>
 			<DialogActions className='fade-in' sx={{ justifyContent: 'center' }}>
-				<Button
-					className='modal-button'
-					variant='contained'
-					// sx={{ color: '#1d1e1d', backgroundColor: '#fec859' }}
-					onClick={() => (github ? window.open(github, '_blank') : null)}
-					disabled={!github}
-				>
-					GITHUB
-				</Button>
-				<Button
-					variant='contained'
-					onClick={() => (live ? window.open(live, '_blank') : null)}
-					disabled={!live}
-				>
-					LIVE
+				<Button variant='contained' onClick={handleClose}>
+					close
 				</Button>
 			</DialogActions>
 		</Dialog>

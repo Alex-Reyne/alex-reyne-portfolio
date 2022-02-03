@@ -1,0 +1,14 @@
+@import 'variables';
+
+#contact-dialog {
+	img {
+		max-width: 15rem;
+		padding: 0.5rem;
+		background-color: $yellow;
+		border-radius: 50%;
+	}
+
+	button {
+		margin: 1rem;
+	}
+}
