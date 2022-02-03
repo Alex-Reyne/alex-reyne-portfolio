@@ -1,5 +1,4 @@
 import '../styles/NavBar.scss';
-
 import { Link, animateScroll as scroll } from 'react-scroll';
 
 export default function NavBar() {
@@ -10,7 +9,7 @@ export default function NavBar() {
 					<sup>01</sup>hello
 				</p>
 				<Link to='about' spy={true} smooth={true}>
-					<p>
+					<p onClick={e => teste.play()}>
 						<sup>02</sup>about
 					</p>
 				</Link>

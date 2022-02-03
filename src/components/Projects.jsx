@@ -13,19 +13,27 @@ export default function Projects() {
 		live: '',
 	});
 
-	const juniorGithub = 'https://github.com/Alex-Reyne/junior';
 	const junior = 'Junior';
+	const alexReyne = 'Portfolio';
+	const scheduler = 'Scheduler';
+	const smartList = 'Smart List';
+
 	const juniorDescription = `Junior is a full-stack web application that allows new developers to easily create a portfolio and apply for jobs or freelance work that are relevant to them. Junior also allows employers to post jobs and gig work for developers to pick up. Junior uses a REST api backend with Express.js, PostgresSQL, and Twilio. The frontend was built with React, React Router, SASS, and MaterialUI (MUI).`;
+	const alexReyneDescription = `Alex Reyne is my person portfolio site. Designed and built in under 8 hours using React, and SASS and MUI for the modal you're looking at right now. It allows potential employers, recruiters, and freelance clients to get a quick overview of who I am and what I do.`;
+	const schedulerDescription = `Interview Scheduler is a React app that uses custom hooks and selector functions to allow users to create, edit, and cancel interviews. Development focused on a single page application (SPA) called Interview Scheduler, built using React. Data is persisted by the API server using a PostgreSQL database. The client application communicates with an API server over HTTP, using the JSON format. Jest, Storybook, and Cypress tests are used through the development of the project.`;
+	const smartListDescription = `Smart List is an app that auto sorts list items using api calls and a custom sorting algorithm. Built with Express.js, SASS, jQuery, EJS, Ajax Google Books API, IMDB API, and Yelp API.`;
 
 	const alexReyneLive = 'https://alexreyne.me';
-	const alexReyneGithub = 'https://github.com/Alex-Reyne/alex-reyne-portfolio';
-	const alexReyne = 'Portfolio';
-	const alexReyneDescription = `Alex Reyne is my person portfolio site. Designed and built in under 8 hours using React, and SASS and MUI for the modal you're looking at right now. It allows potential employers, recruiters, and freelance clients to get a quick overview of who I am and what I do.`;
-	// const scheduler = 'Scheduler';
-	// const tweeter = 'Tweeter';
+	const schedulerLive = 'https://scheduler-project-lhl.netlify.app/';
 
-	// const schedulerImage =
-	// 	'https://github.com/Alex-Reyne/scheduler/blob/master/public/alex-reyne-scheduler.png?raw=true';
+	const schedulerGithub = 'https://github.com/Alex-Reyne/scheduler';
+	const smartListGithub = 'https://github.com/Alex-Reyne/smart-to-do-list';
+	const alexReyneGithub = 'https://github.com/Alex-Reyne/alex-reyne-portfolio';
+	const juniorGithub = 'https://github.com/Alex-Reyne/junior';
+
+	const smartListImage =
+		'https://raw.githubusercontent.com/Alex-Reyne/smart-to-do-list/master/public/images/smart-list-demo-video.gif';
+	const schedulerImage = '../images/scheduler-demo-video.gif';
 	const alexReyneImage = '../images/alex-reyne-portfolio.gif';
 	const juniorImage = '../images/junior-recording.gif';
 
@@ -58,10 +66,27 @@ export default function Projects() {
 						/>
 					</div>
 				</div>
-				{/* <div id='bottom-projects'>
-					<ProjectCard image={schedulerImage} title={scheduler} />
-					<ProjectCard image={tweeterImage} title={tweeter} />
-				</div> */}
+				<div id='bottom-projects'>
+					<ProjectCard
+						image={schedulerImage}
+						title={scheduler}
+						description={schedulerDescription}
+						github={schedulerGithub}
+						live={schedulerLive}
+						open={open}
+						setOpen={setOpen}
+						setDialogContent={setDialogContent}
+					/>
+					<ProjectCard
+						image={smartListImage}
+						title={smartList}
+						description={smartListDescription}
+						github={smartListGithub}
+						open={open}
+						setOpen={setOpen}
+						setDialogContent={setDialogContent}
+					/>
+				</div>
 			</section>
 			<ProjectDialog
 				dialogContent={dialogContent}

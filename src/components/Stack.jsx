@@ -3,7 +3,7 @@ export default function Stack() {
 	return (
 		<div id='stack' className='stack-container fade-in'>
 			<section>
-				<h1>My Stack</h1>
+				{/* <h1>My Stack</h1> */}
 				<div className='stack-alex fade-in'>
 					<div className='dev-stack'>
 						{/* <img

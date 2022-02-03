@@ -2,13 +2,13 @@
 
 footer {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	color: $black;
-	background-color: $yellow;
+	color: $yellow;
+	background-color: $black;
 	width: 100%;
-	height: 3rem;
+	// height: 3rem;
 	margin: 0;
 	bottom: 0;
 
@@ -16,7 +16,7 @@ footer {
 		font-family: $bebas;
 		font-size: 25px;
 		margin: 0;
-		margin-bottom: -0.25rem;
+		margin-bottom: 1rem;
 		letter-spacing: 0.25rem;
 	}
 }
