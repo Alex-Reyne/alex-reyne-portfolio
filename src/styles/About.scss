@@ -59,7 +59,7 @@
 @media only screen and (max-width: 595px) {
 	.about-container {
 		background-image: radial-gradient(
-			160% 98vh at 50% 100vh,
+			160% 90vh at 50% 100vh,
 			$black 75%,
 			transparent 75%
 		);
@@ -67,10 +67,10 @@
 		.about-me {
 			font-size: 4rem;
 			max-width: 90%;
-			margin-top: 14rem;
+			margin-top: 16rem;
 
 			p {
-				font-size: 20px;
+				font-size: 15px;
 			}
 		}
 	}
