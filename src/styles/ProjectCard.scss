@@ -77,6 +77,17 @@
 @media only screen and (min-width: 889px) {
 }
 
-/* Extra big screen devices (1200px and above) */
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1700px) {
+	.project-card-container {
+		img {
+			max-width: 500px;
+			height: auto;
+		}
+
+		h1 {
+			font-size: 60px;
+			margin-top: 0.5rem;
+			margin-bottom: -1rem;
+		}
+	}
 }

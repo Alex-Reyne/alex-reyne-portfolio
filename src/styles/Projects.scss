@@ -148,4 +148,13 @@
 	}
 }
 @media only screen and (min-width: 1400px) {
+	.projects-container {
+		h1 {
+			font-size: 80px;
+			margin: 3rem 0 2rem 0;
+		}
+		.projects {
+			width: auto;
+		}
+	}
 }
