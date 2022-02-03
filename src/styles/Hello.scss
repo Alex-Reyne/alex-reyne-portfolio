@@ -73,10 +73,40 @@
 
 /* Small screen devices (600px and above) */
 @media only screen and (min-width: 600px) {
+	.hello-container {
+		max-width: 50%;
+		margin-top: 6rem;
+
+		h1 {
+			font-size: 35px;
+		}
+	}
+
+	.title {
+		font-size: 50px;
+
+		margin-top: 2rem;
+		z-index: 999;
+	}
 }
 
 /* Medium screen devices (768px and above) */
 @media only screen and (min-width: 768px) {
+	.hello-container {
+		max-width: 25rem;
+		margin-top: 6rem;
+
+		h1 {
+			font-size: 55px;
+		}
+	}
+
+	.title {
+		font-size: 60px;
+
+		margin-top: 2rem;
+		z-index: 999;
+	}
 }
 
 /* Big screen devices (889px and above) */

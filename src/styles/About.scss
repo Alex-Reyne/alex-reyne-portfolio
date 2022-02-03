@@ -65,9 +65,14 @@
 		);
 
 		.about-me {
-			font-size: 4rem;
+			font-size: 2rem;
 			max-width: 90%;
-			margin-top: 16rem;
+			margin-top: 17rem;
+
+			img {
+				max-width: 10rem;
+				padding: 0.25rem;
+			}
 
 			p {
 				font-size: 15px;
@@ -78,10 +83,54 @@
 
 /* Small screen devices (600px and above) */
 @media only screen and (min-width: 600px) {
+	.about-container {
+		background-image: radial-gradient(
+			160% 75vh at 50% 100vh,
+			$black 75%,
+			transparent 75%
+		);
+
+		.about-me {
+			font-size: 2rem;
+			max-width: 90%;
+			margin-top: 21.75rem;
+
+			img {
+				max-width: 10rem;
+				padding: 0.25rem;
+			}
+
+			p {
+				font-size: 18px;
+			}
+		}
+	}
 }
 
 /* Medium screen devices (768px and above) */
 @media only screen and (min-width: 768px) {
+	.about-container {
+		background-image: radial-gradient(
+			170% 93vh at 50% 100vh,
+			$black 75%,
+			transparent 75%
+		);
+
+		.about-me {
+			font-size: 2.5rem;
+			max-width: 80%;
+			margin-top: 15.25rem;
+
+			img {
+				max-width: 15rem;
+				padding: 0.5rem;
+			}
+
+			p {
+				font-size: 17px;
+			}
+		}
+	}
 }
 
 /* Big screen devices (889px and above) */

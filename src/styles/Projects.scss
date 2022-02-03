@@ -74,11 +74,14 @@
 @media only screen and (min-width: 600px) {
 	.projects-container {
 		background-size: cover;
+		h1 {
+			font-size: 50px;
+		}
 		.projects {
-			width: 80%;
+			width: 75%;
 			padding: 2rem 2rem;
 			div {
-				flex-direction: row;
+				flex-direction: column;
 			}
 			.project-card-container {
 				margin: 1rem;
@@ -93,6 +96,27 @@
 
 /* Medium screen devices (768px and above) */
 @media only screen and (min-width: 768px) {
+	.projects-container {
+		background-size: cover;
+		h1 {
+			font-size: 50px;
+		}
+		.projects {
+			align-items: center;
+			width: 75%;
+			padding: 2rem 2rem;
+			div {
+				flex-direction: column;
+			}
+			.project-card-container {
+				margin: 1rem;
+				cursor: pointer;
+			}
+		}
+		#bottom-projects {
+			margin-top: 0rem;
+		}
+	}
 }
 
 /* Big screen devices (889px and above) */
