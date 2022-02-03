@@ -45,3 +45,57 @@
 		margin-top: 4rem;
 	}
 }
+
+/* For extremely small screen devices (595px and below) */
+@media only screen and (max-width: 595px) {
+	.projects-container {
+		background-size: cover;
+		.projects {
+			width: 80%;
+			padding: 2rem 2rem;
+			div {
+				flex-direction: column;
+			}
+			.project-card-container {
+				margin: 1rem;
+				cursor: pointer;
+			}
+		}
+		#bottom-projects {
+			margin-top: 0rem;
+		}
+	}
+}
+
+/* Small screen devices (600px and above) */
+@media only screen and (min-width: 600px) {
+	.projects-container {
+		background-size: cover;
+		.projects {
+			width: 80%;
+			padding: 2rem 2rem;
+			div {
+				flex-direction: row;
+			}
+			.project-card-container {
+				margin: 1rem;
+				cursor: pointer;
+			}
+		}
+		#bottom-projects {
+			margin-top: 0rem;
+		}
+	}
+}
+
+/* Medium screen devices (768px and above) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Big screen devices (889px and above) */
+@media only screen and (min-width: 889px) {
+}
+
+/* Extra big screen devices (1200px and above) */
+@media only screen and (min-width: 1200px) {
+}

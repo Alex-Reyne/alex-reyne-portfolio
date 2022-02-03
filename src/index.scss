@@ -10,4 +10,26 @@ body {
 	background-position: top center;
 	background-size: auto;
 	z-index: 0;
+
+	.modal-button {
+		background-color: $yellow;
+		color: $black;
+		border-radius: 0.25rem;
+	}
+	.modal-button:hover {
+		background-color: #fec759b3;
+		color: $black;
+	}
+
+	.close-button {
+		background-color: $slate;
+		color: $yellow;
+		border-radius: 0.25rem;
+
+		&:hover {
+			background-color: $slate;
+			color: $yellow;
+			border-radius: 0.25rem;
+		}
+	}
 }

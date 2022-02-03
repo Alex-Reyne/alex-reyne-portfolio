@@ -55,3 +55,39 @@
 		}
 	}
 }
+
+@media only screen and (max-width: 595px) {
+	.about-container {
+		background-image: radial-gradient(
+			160% 98vh at 50% 100vh,
+			$black 75%,
+			transparent 75%
+		);
+
+		.about-me {
+			font-size: 4rem;
+			max-width: 90%;
+			margin-top: 14rem;
+
+			p {
+				font-size: 20px;
+			}
+		}
+	}
+}
+
+/* Small screen devices (600px and above) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium screen devices (768px and above) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Big screen devices (889px and above) */
+@media only screen and (min-width: 889px) {
+}
+
+/* Extra big screen devices (1200px and above) */
+@media only screen and (min-width: 1200px) {
+}

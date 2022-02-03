@@ -5,6 +5,21 @@ import DialogActions from '@mui/material/DialogActions';
 import DialogContent from '@mui/material/DialogContent';
 import DialogContentText from '@mui/material/DialogContentText';
 import DialogTitle from '@mui/material/DialogTitle';
+import { makeStyles } from '@mui/styles';
+
+const useStyles = makeStyles({
+	h2: {
+		textAlign: 'center',
+		marginTop: '-1rem',
+		fontSize: '40px',
+		'text-shadow': '0px 0px 15px #000',
+	},
+	'& .Mui-disabled': {
+		opacity: '90%',
+		backgroundColor: '#1d1e1d',
+		color: '#f6f6f650',
+	},
+});
 
 export default function ProjectDialog(props) {
 	const { open, setOpen, dialogContent } = props;
@@ -19,45 +34,25 @@ export default function ProjectDialog(props) {
 			open={open}
 			onClose={handleClose}
 			maxWidth='md'
-			scroll='body'
-			sx={{
-				'& .MuiDialog-paper': {
+			sx={useStyles}
+			PaperProps={{
+				style: {
 					borderRadius: '.25rem',
 					padding: '1rem',
 					color: '#fec859',
 					'background-color': '#ffffff09',
 					'backdrop-filter': 'blur(5px)',
 				},
-				h2: {
-					textAlign: 'center',
-					marginTop: '-1rem',
-					fontSize: '40px',
-					'text-shadow': '0px 0px 15px #000',
-				},
-				'& .MuiButton-root': {
-					backgroundColor: '#fec859',
-					color: '#1d1e1d',
-					borderRadius: '.25rem',
-				},
-				'.MuiButton-root:hover': {
-					backgroundColor: '#3a616f',
-					color: '#fec859',
-				},
-				// 				$white: #f6f6f6;
-				// $black: #1d1e1d;
-				// $slate: #3a616f;
-				// $pink: #f16979;
-				// $yellow: #fec859;
-				'& .Mui-disabled': {
-					opacity: '90%',
-					backgroundColor: '#1d1e1d',
-					color: '#f6f6f650',
-				},
 			}}
+			scroll='body'
 			aria-labelledby='alert-dialog-title'
 			aria-describedby='alert-dialog-description'
 		>
-			<DialogTitle id='alert-dialog-title' className='fade-in'>
+			<DialogTitle
+				sx={{ fontSize: '40px' }}
+				id='alert-dialog-title'
+				className='fade-in'
+			>
 				{title}
 			</DialogTitle>
 			<DialogContent className='fade-in'>
@@ -77,11 +72,19 @@ export default function ProjectDialog(props) {
 					GITHUB
 				</Button>
 				<Button
+					className='modal-button'
 					variant='contained'
 					onClick={() => (live ? window.open(live, '_blank') : null)}
 					disabled={!live}
 				>
 					LIVE
+				</Button>
+				<Button
+					className='modal-button close-button'
+					variant='contained'
+					onClick={handleClose}
+				>
+					CLOSE
 				</Button>
 			</DialogActions>
 		</Dialog>
