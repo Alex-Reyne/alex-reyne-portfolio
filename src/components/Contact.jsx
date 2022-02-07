@@ -10,28 +10,28 @@ export default function Contact() {
 					href='https://github.com/Alex-Reyne'
 					target='_blank'
 				>
-					<sup>01</sup>github
+					github
 				</a>
 				<a
 					className='btn-flip'
 					href='https://drive.google.com/file/d/1rvrY8h93EFONuJnC_6eURYJscZSnOp1V/view'
 					target='_blank'
 				>
-					<sup>02</sup>Resume
+					Resume
 				</a>
 				<a
 					className='btn-flip'
 					href='https://linkedin.com/in/alexanderreyne'
 					target='_blank'
 				>
-					<sup>03</sup>LinkedIn
+					LinkedIn
 				</a>
 				<a
 					className='btn-flip'
 					href='https://linktr.ee/alexreyne'
 					target='_blank'
 				>
-					<sup>04</sup>Linktree
+					Linktree
 				</a>
 			</div>
 			<div className='contact-info'>
