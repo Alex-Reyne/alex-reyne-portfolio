@@ -9,8 +9,14 @@ export default function NavBar() {
 	const [volume, setVolume] = useState(0.05);
 	const [play] = useSound('../images/click.mp3', { volume });
 
-	const handleNav = () => {
-		openNav ? setOpenNav(false) : setOpenNav(true);
+	const closeNav = () => {
+		setTimeout(() => {
+			setOpenNav(false);
+		}, 800);
+	};
+
+	const handleNavOpen = () => {
+		openNav ? closeNav() : setOpenNav(true);
 	};
 
 	return (
@@ -49,20 +55,20 @@ export default function NavBar() {
 							onMouseEnter={play}
 						></p>
 					</Link>
-					<Link to='stack' spy={true} smooth={true}>
+					<Link to='contact' spy={true} smooth={true}>
 						<sup>04</sup>
 						<p
 							className='.btn-flip'
 							class='btn-flip'
-							data-back='Stack'
-							data-front='Stack'
+							data-back='Contact'
+							data-front='Contact'
 							onMouseEnter={play}
 						></p>
 					</Link>
 				</section>
 			</nav>
 			<nav id='mobile-nav-bar'>
-				<div className='hamburger-menu' onClick={handleNav}>
+				<div className='hamburger-menu' onClick={handleNavOpen}>
 					<hr />
 					<hr />
 					<hr />
@@ -70,8 +76,8 @@ export default function NavBar() {
 			</nav>
 			{openNav && (
 				<>
-					<section className='mobile-nav-links fade-in' onClick={handleNav}>
-						<Link onClick={handleNav}>
+					<section className='mobile-nav-links fade-in' onClick={handleNavOpen}>
+						<Link onClick={handleNavOpen}>
 							<sup>01</sup>
 							<p
 								className='.btn-flip'
@@ -84,7 +90,7 @@ export default function NavBar() {
 								}}
 							></p>
 						</Link>
-						<Link to='about' spy={true} smooth={true} onClick={handleNav}>
+						<Link to='about' spy={true} smooth={true} onClick={handleNavOpen}>
 							<sup>02</sup>
 							<p
 								className='.btn-flip'
@@ -96,7 +102,12 @@ export default function NavBar() {
 								}}
 							></p>
 						</Link>
-						<Link to='projects' spy={true} smooth={true} onClick={handleNav}>
+						<Link
+							to='projects'
+							spy={true}
+							smooth={true}
+							onClick={handleNavOpen}
+						>
 							<sup>03</sup>
 							<p
 								className='.btn-flip'
@@ -108,13 +119,13 @@ export default function NavBar() {
 								}}
 							></p>
 						</Link>
-						<Link to='stack' spy={true} smooth={true} onClick={handleNav}>
+						<Link to='contact' spy={true} smooth={true} onClick={handleNavOpen}>
 							<sup>04</sup>
 							<p
 								className='.btn-flip'
 								class='btn-flip'
-								data-back='Stack'
-								data-front='Stack'
+								data-back='Contact'
+								data-front='Contact'
 								onClick={e => {
 									play();
 								}}
