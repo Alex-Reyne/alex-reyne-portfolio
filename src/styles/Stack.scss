@@ -32,12 +32,40 @@
 			margin-left: 0;
 		}
 	}
+}
 
-	// h1 {
-	// 	color: $yellow;
-	// 	font-family: $bebas;
-	// 	font-size: 80px;
-	// 	margin: 2rem 0;
-	// 	letter-spacing: 0.25rem;
-	// }
+@media only screen and (max-width: 430px) {
+	.stack-container {
+		text-align: center;
+
+		.dev-stack {
+			img {
+				margin: 0 0.25rem;
+				margin-top: 1.25rem;
+				width: 2rem;
+				height: 2rem;
+			}
+
+			#dev-stack {
+				margin-left: 0;
+			}
+		}
+		.design-stack {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: center;
+			margin-top: 0.5rem;
+			margin-bottom: 1rem;
+			img {
+				margin: 0 0.25rem;
+				margin-top: 0.5rem;
+				width: 2rem;
+				height: 2rem;
+			}
+			#design-stack {
+				margin-left: 0;
+			}
+		}
+	}
 }
