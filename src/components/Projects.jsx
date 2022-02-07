@@ -25,6 +25,7 @@ export default function Projects() {
 
 	const alexReyneLive = 'https://alexreyne.me';
 	const schedulerLive = 'https://scheduler-project-lhl.netlify.app/';
+	const juniorLive = 'https://junior-client.herokuapp.com/dev/9';
 
 	const schedulerGithub = 'https://github.com/Alex-Reyne/scheduler';
 	const smartListGithub = 'https://github.com/Alex-Reyne/smart-to-do-list';
@@ -48,6 +49,7 @@ export default function Projects() {
 							title={junior}
 							description={juniorDescription}
 							github={juniorGithub}
+							live={juniorLive}
 							open={open}
 							setOpen={setOpen}
 							setDialogContent={setDialogContent}
