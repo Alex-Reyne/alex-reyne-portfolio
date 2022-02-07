@@ -78,8 +78,10 @@ export default function NavBar() {
 								class='btn-flip'
 								data-back='Hello'
 								data-front='Hello'
-								onClick={scroll.scrollToTop}
-								onMouseEnter={play}
+								onClick={e => {
+									scroll.scrollToTop();
+									play();
+								}}
 							></p>
 						</Link>
 						<Link to='about' spy={true} smooth={true} onClick={handleNav}>
@@ -89,7 +91,9 @@ export default function NavBar() {
 								class='btn-flip'
 								data-back='About'
 								data-front='About'
-								onMouseEnter={play}
+								onClick={e => {
+									play();
+								}}
 							></p>
 						</Link>
 						<Link to='projects' spy={true} smooth={true} onClick={handleNav}>
@@ -99,7 +103,9 @@ export default function NavBar() {
 								class='btn-flip'
 								data-back='Projects'
 								data-front='Projects'
-								onMouseEnter={play}
+								onClick={e => {
+									play();
+								}}
 							></p>
 						</Link>
 						<Link to='stack' spy={true} smooth={true} onClick={handleNav}>
@@ -109,7 +115,9 @@ export default function NavBar() {
 								class='btn-flip'
 								data-back='Stack'
 								data-front='Stack'
-								onMouseEnter={play}
+								onClick={e => {
+									play();
+								}}
 							></p>
 						</Link>
 					</section>
