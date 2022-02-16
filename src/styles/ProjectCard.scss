@@ -1,72 +1,85 @@
 @import '../styles/variables.scss';
 
 .project-card-container {
-	text-align: center;
-	img {
-		max-width: 500px;
-		height: auto;
-	}
+  text-align: center;
+  img {
+    max-width: 500px;
+    height: auto;
+  }
+  video {
+    max-width: 500px;
+    height: auto;
+  }
 
-	h1 {
-		font-size: 60px;
-		margin-top: 0.5rem;
-		margin-bottom: -1rem;
-	}
+  h1 {
+    font-size: 60px;
+    margin-top: 0.5rem;
+    margin-bottom: -1rem;
+  }
 }
 
 .MuiDialog-root {
-	img {
-		width: 850px;
-	}
+  img {
+    width: 850px;
+  }
+  video {
+    width: 800px;
+  }
 }
 
 .MuiDialogContent-root {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 #alert-dialog-description {
-	margin-top: 1rem;
-	font-family: $lato;
-	font-size: 1.25rem;
-	color: white;
-	text-shadow: 0px 0px 10px $black;
+  margin-top: 1rem;
+  font-family: $lato;
+  font-size: 1.25rem;
+  color: white;
+  text-shadow: 0px 0px 10px $black;
 }
 
 @media only screen and (max-width: 595px) {
-	.project-card-container {
-		h1 {
-			font-size: 40px;
-			margin-top: 0.5rem;
-			margin-bottom: -1rem;
-		}
-	}
-	.MuiDialogContent-root {
-		width: 90%;
-		img {
-			max-width: 100%;
-		}
-	}
+  .project-card-container {
+    h1 {
+      font-size: 40px;
+      margin-top: 0.5rem;
+      margin-bottom: -1rem;
+    }
+  }
+  .MuiDialogContent-root {
+    width: 90%;
+    img {
+      max-width: 100%;
+    }
+    video {
+      max-width: 100%;
+    }
+  }
 }
 
 /* Small screen devices (600px and above) */
 @media only screen and (min-width: 600px) {
-	.project-card-container {
-		h1 {
-			font-size: 40px;
-			margin-top: 0.5rem;
-			margin-bottom: -1rem;
-		}
-	}
-	.MuiDialogContent-root {
-		width: 90%;
-		img {
-			max-width: 100%;
-		}
-	}
+  .project-card-container {
+    h1 {
+      font-size: 40px;
+      margin-top: 0.5rem;
+      margin-bottom: -1rem;
+    }
+  }
+  .MuiDialogContent-root {
+    width: 90%;
+    img {
+      max-width: 100%;
+    }
+    video {
+      max-width: 100%;
+    }
+  }
 }
 
 /* Medium screen devices (768px and above) */
@@ -78,16 +91,20 @@
 }
 
 @media only screen and (min-width: 1700px) {
-	.project-card-container {
-		img {
-			max-width: 500px;
-			height: auto;
-		}
+  .project-card-container {
+    img {
+      max-width: 500px;
+      height: auto;
+    }
+    video {
+      max-width: 500px;
+      height: auto;
+    }
 
-		h1 {
-			font-size: 60px;
-			margin-top: 0.5rem;
-			margin-bottom: -1rem;
-		}
-	}
+    h1 {
+      font-size: 60px;
+      margin-top: 0.5rem;
+      margin-bottom: -1rem;
+    }
+  }
 }
