@@ -1,83 +1,83 @@
 @import './styles/variables';
 
 .fade-in {
-	animation: fadeInAnimation ease 3s;
-	animation-iteration-count: 1;
-	animation-fill-mode: forwards;
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
 @keyframes fadeInAnimation {
-	0% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
-	}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .fade-out {
-	animation: fadeOutAnimation ease 3s;
-	animation-iteration-count: 1;
-	animation-fill-mode: forwards;
+  animation: fadeOutAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
 @keyframes fadeOutAnimation {
-	0% {
-		opacity: 1;
-	}
-	100% {
-		opacity: 0;
-	}
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
 ::selection {
-	color: $black;
-	background: $yellow;
+  color: $black;
+  background: $yellow;
 }
 
 .btn-flip {
-	outline: 0;
-	line-height: 40px;
-	position: relative;
-	text-align: center;
-	display: inline-block;
-	font-family: $bebas;
-	text-transform: uppercase;
+  outline: 0;
+  line-height: 40px;
+  position: relative;
+  text-align: center;
+  display: inline-block;
+  font-family: $bebas;
+  text-transform: uppercase;
 
-	&:hover {
-		&:after {
-			opacity: 1;
-			transform: translateY(0) rotateX(0);
-		}
+  &:hover {
+    &:after {
+      opacity: 1;
+      transform: translateY(0) rotateX(0);
+    }
 
-		&:before {
-			transform: translateY(50%) rotateX(90deg);
-		}
-	}
+    &:before {
+      transform: translateY(50%) rotateX(90deg);
+    }
+  }
 
-	&:after {
-		top: 0;
-		left: 0;
-		opacity: 0;
-		display: block;
-		transition: $speed;
-		position: absolute;
-		padding-top: 0.25rem;
-		content: attr(data-back);
-		transform: translateY(-50%) rotateX(90deg);
-	}
+  &:after {
+    top: 0;
+    left: 0;
+    opacity: 0;
+    display: block;
+    transition: $speed;
+    position: absolute;
+    padding-top: 0.25rem;
+    content: attr(data-back);
+    transform: translateY(-50%) rotateX(90deg);
+  }
 
-	&:before {
-		top: 0;
-		left: 0;
-		opacity: 1;
-		display: block;
-		line-height: 40px;
-		transition: $speed;
-		position: relative;
-		content: attr(data-front);
-		transform: translateY(0) rotateX(0);
-	}
+  &:before {
+    top: 0;
+    left: 0;
+    opacity: 1;
+    display: block;
+    line-height: 40px;
+    transition: $speed;
+    position: relative;
+    content: attr(data-front);
+    transform: translateY(0) rotateX(0);
+  }
 }
 /* For extremely small screen devices (595px and below) */
 @media only screen and (max-width: 595px) {

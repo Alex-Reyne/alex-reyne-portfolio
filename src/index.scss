@@ -3,33 +3,47 @@
 @import './styles/variables.scss';
 
 body {
-	margin: 0 0 0 0;
-	background-color: $black;
-	background-image: url(../public/images/reyne-space-bg.png);
-	background-repeat: no-repeat;
-	background-position: top center;
-	background-size: auto;
-	z-index: 0;
+  margin: 0 0 0 0;
+  background-color: $black;
+  background-image: url(../public/images/reyne-space-bg.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: auto;
+  z-index: 0;
 
-	.modal-button {
-		background-color: $yellow;
-		color: $black;
-		border-radius: 0.25rem;
-	}
-	.modal-button:hover {
-		background-color: #fec759b3;
-		color: $black;
-	}
+  .modal-button {
+    background-color: $yellow;
+    color: $black;
+    border-radius: 0.25rem;
+  }
+  .modal-button:hover {
+    background-color: #fec759b3;
+    color: $black;
+  }
 
-	.close-button {
-		background-color: $slate;
-		color: $yellow;
-		border-radius: 0.25rem;
+  .close-button {
+    background-color: $slate;
+    color: $yellow;
+    border-radius: 0.25rem;
 
-		&:hover {
-			background-color: $slate;
-			color: $yellow;
-			border-radius: 0.25rem;
-		}
-	}
+    &:hover {
+      background-color: $slate;
+      color: $yellow;
+      border-radius: 0.25rem;
+    }
+  }
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: $slate;
+  box-shadow: inset 0 0 5px $black;
+}
+::-webkit-scrollbar-thumb {
+  background: $yellow;
+  box-shadow: inset 0 0 5px $black;
+  border-radius: 0.25rem;
 }
