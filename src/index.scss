@@ -2,6 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@600&family=Bebas+Neue&display=swap');
 @import './styles/variables.scss';
 
+html {
+  scrollbar-color: $yellow $slate;
+  scrollbar-width: 12px;
+}
+
 body {
   margin: 0 0 0 0;
   background-color: $black;
