@@ -36,8 +36,9 @@ export default function Projects() {
     'https://raw.githubusercontent.com/Alex-Reyne/smart-to-do-list/master/public/images/smart-list-demo-video.gif';
   const highlighterBlackVideo =
     'https://user-images.githubusercontent.com/85032662/154366490-53c32ccd-0eb6-47e6-a03a-63c28a6c978c.mp4';
-  const alexReyneImage = '../images/alex-reyne-portfolio.gif';
-  const juniorImage = '../images/junior-recording.gif';
+  const alexReyneImage =
+    require('../images/alex-reyne-portfolio.gif') || '../images/alex-reyne-portfolio.gif';
+  const juniorImage = require('../images/junior-recording.gif') || '../images/junior-recording.gif';
 
   return (
     <div id="projects" className="projects-container fade-in">
