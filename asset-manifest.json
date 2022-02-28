@@ -1,18 +1,36 @@
 {
   "files": {
     "main.css": "/alex-reyne-portfolio/static/css/main.fa28b00c.css",
-    "main.js": "/alex-reyne-portfolio/static/js/main.53087dc6.js",
+    "main.js": "/alex-reyne-portfolio/static/js/main.db5eb28f.js",
     "static/js/845.fc74a877.chunk.js": "/alex-reyne-portfolio/static/js/845.fc74a877.chunk.js",
     "static/js/787.b32f114d.chunk.js": "/alex-reyne-portfolio/static/js/787.b32f114d.chunk.js",
+    "static/media/alex-reyne-portfolio.gif": "/alex-reyne-portfolio/static/media/alex-reyne-portfolio.85d05c8aef6a743737d3.gif",
+    "static/media/junior-recording.gif": "/alex-reyne-portfolio/static/media/junior-recording.cfbe53e531b7ee2e4f2b.gif",
     "static/media/reyne-space-bg.png": "/alex-reyne-portfolio/static/media/reyne-space-bg.d1e5916f7f8fa754f8e5.png",
+    "static/media/alex-reyne.jpeg": "/alex-reyne-portfolio/static/media/alex-reyne.e0bfb3398120676eb6ac.jpeg",
+    "static/media/logo.svg": "/alex-reyne-portfolio/static/media/logo.58ab81a7691ae0876128d6494f711f0a.svg",
+    "static/media/express-js-javascript.svg": "/alex-reyne-portfolio/static/media/express-js-javascript.302df0532c546decbac42ffe5dd9ddc3.svg",
+    "static/media/postgresql-psql.svg": "/alex-reyne-portfolio/static/media/postgresql-psql.aed8d3cdec1aae9871182fa8d71c368d.svg",
+    "static/media/ruby-lang-rails.svg": "/alex-reyne-portfolio/static/media/ruby-lang-rails.a1da731393e1481a1d42359e85209464.svg",
+    "static/media/SASS.svg": "/alex-reyne-portfolio/static/media/SASS.4b0e9017f91bffcb2346ab17104e9f01.svg",
+    "static/media/react.svg": "/alex-reyne-portfolio/static/media/react.461ffc151ba77924de9eb19121b46cae.svg",
+    "static/media/node-nodejs.svg": "/alex-reyne-portfolio/static/media/node-nodejs.6910cb08ada64130ddf34643b2a3302c.svg",
+    "static/media/figma.svg": "/alex-reyne-portfolio/static/media/figma.de43e0639dce3115fb7ac00ce020ca03.svg",
+    "static/media/adobe-photoshop.svg": "/alex-reyne-portfolio/static/media/adobe-photoshop.6544189cd3368be6f02a86e4a2d1b5ba.svg",
+    "static/media/adobe-after-effects.svg": "/alex-reyne-portfolio/static/media/adobe-after-effects.03535f5315f0e42a89a8588cc39ccf0e.svg",
+    "static/media/html-html5.svg": "/alex-reyne-portfolio/static/media/html-html5.aac844023179094d9cd93421e6c790c4.svg",
+    "static/media/adobe-illustrator.svg": "/alex-reyne-portfolio/static/media/adobe-illustrator.74dce32f8a4492c4c9c90204c0e9d0f3.svg",
+    "static/media/CSS-CSS3.svg": "/alex-reyne-portfolio/static/media/CSS-CSS3.fe653c67148badea9c9580533c7dcdc2.svg",
+    "static/media/adobe-indesign.svg": "/alex-reyne-portfolio/static/media/adobe-indesign.3696f0210f4e513e6816d4cdb5c8a267.svg",
+    "static/media/material-ui-mui.svg": "/alex-reyne-portfolio/static/media/material-ui-mui.b168d683cbcc98d7d0e7144d61c1c4f5.svg",
     "index.html": "/alex-reyne-portfolio/index.html",
     "main.fa28b00c.css.map": "/alex-reyne-portfolio/static/css/main.fa28b00c.css.map",
-    "main.53087dc6.js.map": "/alex-reyne-portfolio/static/js/main.53087dc6.js.map",
+    "main.db5eb28f.js.map": "/alex-reyne-portfolio/static/js/main.db5eb28f.js.map",
     "845.fc74a877.chunk.js.map": "/alex-reyne-portfolio/static/js/845.fc74a877.chunk.js.map",
     "787.b32f114d.chunk.js.map": "/alex-reyne-portfolio/static/js/787.b32f114d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fa28b00c.css",
-    "static/js/main.53087dc6.js"
+    "static/js/main.db5eb28f.js"
   ]
 }
